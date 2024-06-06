@@ -149,3 +149,6 @@
     font-size: 0.75rem;
     color: rgba(0, 0, 0, 0.54);
 }
+.messages-container::-webkit-scrollbar{
+    display: none;
+}
