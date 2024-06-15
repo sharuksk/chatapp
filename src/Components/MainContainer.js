@@ -26,8 +26,8 @@ const [conversations, setConversations]=useState([
   return (
     <div className='main-container'>
       <Sidebar/>
-      {/* <Welcome/> */}
-      <CreateGroups/>
+      <Welcome/>
+      {/* <CreateGroups/> */}
       {/* <ChatArea props={conversations[0]}/> */}
     </div>
   )
